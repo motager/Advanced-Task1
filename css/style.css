@@ -68,14 +68,13 @@ svg {
 
 
 
-    margin: auto  ;
+    margin: auto;
     border: 1px solid #ffe1e1;
     background-color: #f9f9f9;
     height: 510px;
     width: 540px;
-
     border-radius: 10px;
-    padding: 42px 30px 56px 30px; 
+    padding: 42px 30px 56px 30px;
     box-sizing: border-box;
     position: relative;
 }
@@ -99,7 +98,7 @@ svg {
 .main_chart {
 
     display: block;
-    margin-top: 60px ;
+    margin-top: 60px;
     text-align: center;
 
 }
@@ -194,10 +193,10 @@ svg {
     position: absolute;
     right: 409px;
     display: inline-block;
-  font-size: 15px;
-   margin-right: 45px;
+    font-size: 15px;
+    margin-right: 45px;
     font-family: "myFirstFont";
-    
+
     opacity: .5;
 
 }
@@ -250,7 +249,7 @@ svg {
     display: inline-block;
     margin-left: 28.4px;
     font-family: "myFirstFont";
-    font-size: 15px;           
+    font-size: 15px;
     opacity: .5;
 
 }
@@ -264,12 +263,14 @@ svg {
     font-size: 15px;
     opacity: .5;
 }
+
 hr {
 
     opacity: .5;
     margin: 48px;
 
 }
+
 .span_footer1 {
 
     font-size: smaller;
