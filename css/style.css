@@ -15,15 +15,14 @@ body {
 
 
 
-    background-color: #dc7023;
-    width: 450px;
-    height: 0px 10px;
-    margin: 20px auto;
-    border-radius: 10px;
-    border: 1px solid #dc7023;
-    padding: 20px 15px;
+    background-color: #EC755D;
+    width: 540px;
+    height: 128px;
+    margin: 158px auto 27px;
+    padding: 20px 31px 20px 0px;
     box-sizing: border-box;
     position: relative;
+    border-radius: 20px;
 
 
 
@@ -48,8 +47,7 @@ body {
     font-weight: 300;
     color: #ffffff;
     font-family: "myFirstFont";
-    border: 1px solid #dc7023;
-    border-radius: 20px;
+
 
 }
 
@@ -70,14 +68,14 @@ svg {
 
 
 
-    margin: auto;
+    margin: auto  ;
     border: 1px solid #ffe1e1;
     background-color: #f9f9f9;
-    height: 450px;
-    width: 450px;
+    height: 510px;
+    width: 540px;
 
     border-radius: 10px;
-    padding: 25px 25px;
+    padding: 42px 30px 56px 30px; 
     box-sizing: border-box;
     position: relative;
 }
@@ -94,14 +92,14 @@ svg {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(../svg/static/Rubik-Medium.ttf);
+    src: url(../font/static/Rubik-Medium.ttf);
 
 }
 
 .main_chart {
 
     display: block;
-    margin-top: 60px;
+    margin-top: 60px ;
     text-align: center;
 
 }
@@ -114,73 +112,73 @@ svg {
 
 
 
-    height: 40px;
-    background-color: #ee863b;
+    height: 43px;
+    background-color: #EC755D;
     border-radius: 5px;
-    width: 40px;
+    width: 50px;
 }
 
 .div2 {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 19px;
     background-color: white;
-    height: 90px;
-    background-color: #ee863b;
+    height: 96px;
+    background-color: #EC755D;
     border-radius: 5px;
-    width: 40px;
+    width: 48px;
 
 
 }
 
 .div3 {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 19px;
     background-color: white;
-    height: 150px;
-    background-color: #51aec9;
+    height: 148px;
+    background-color: #76B5BC;
     border-radius: 5px;
-    width: 40px;
+    width: 48px;
 
 }
 
 .div4 {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 19px;
     background-color: white;
-    height: 80px;
-    background-color: #ee863b;
+    height: 87px;
+    background-color: #EC755D;
     border-radius: 5px;
-    width: 40px;
+    width: 48px;
 }
 
 .div5 {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 19px;
     background-color: white;
-    height: 60px;
-    background-color: #ee863b;
+    height: 65px;
+    background-color: #EC755D;
     border-radius: 5px;
-    width: 40px;
+    width: 48px;
 }
 
 .div6 {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 19px;
     background-color: white;
-    height: 100px;
-    background-color: #ee863b;
+    height: 123px;
+    background-color: #EC755D;
     border-radius: 5px;
-    width: 40px;
+    width: 48px;
 }
 
 .div7 {
     display: inline-block;
 
-    margin-left: 10px;
+    margin-left: 19px;
 
     background-color: white;
-    height: 66px;
-    background-color: #ee863b;
+    height: 69px;
+    background-color: #EC755D;
     border-radius: 5px;
     width: 40px;
 }
@@ -188,58 +186,61 @@ svg {
 .div_days {
 
     margin: 5px;
+    margin: -11px;
 }
+
 
 .days1 {
     position: absolute;
-    right: 369px;
+    right: 409px;
     display: inline-block;
-    margin-left: 13.4px;
+  font-size: 15px;
+   margin-right: 45px;
     font-family: "myFirstFont";
-    font-size: 10px;
+    
     opacity: .5;
 
 }
 
 .days2 {
     position: absolute;
-    right: 318px;
+    right: 387px;
     display: inline-block;
-    margin-left: 28.4px;
+    margin-left: 45px;
     font-family: "myFirstFont";
-    font-size: 10px;
+    font-size: 15px;
     opacity: .5;
 }
 
 .days3 {
     position: absolute;
-    right: 264px;
+    right: 313px;
     display: inline-block;
-    margin-left: 28.4px;
+    margin-left: 45px;
     font-family: "myFirstFont";
-    font-size: 10px;
+    font-size: 15px;
     opacity: .5;
 
 }
 
 .days4 {
     position: absolute;
-    right: 209px;
+    right: 243px;
     display: inline-block;
     margin-left: 28.4px;
     font-family: "myFirstFont";
     font-size: 15px;
-    font-size: 10px;
+    font-size: 15px;
     opacity: .5;
 }
 
 .days5 {
     position: absolute;
-    right: 156px;
+    right: 176px;
     display: inline-block;
 
     font-family: "myFirstFont";
-    font-size: 10px;
+    font-size: 15px;
     opacity: .5;
 }
 
@@ -249,27 +250,35 @@ svg {
     display: inline-block;
     margin-left: 28.4px;
     font-family: "myFirstFont";
-    font-size: 10px;
+    font-size: 15px;           
     opacity: .5;
 
 }
 
 .days7 {
     position: absolute;
-    right: 49px;
+    right: 38px;
     display: inline-block;
     margin-left: 28.4px;
     font-family: "myFirstFont";
-    font-size: 10px;
+    font-size: 15px;
     opacity: .5;
 }
+hr {
 
+    opacity: .5;
+    margin: 48px;
+
+}
 .span_footer1 {
 
     font-size: smaller;
     color: #a09a9a;
     opacity: .9;
     font-family: "myFirstFont";
+    margin-bottom: 21px;
+    position: absolute;
+    top: 390px;
 
 }
 
@@ -277,26 +286,24 @@ svg {
 
 
     margin: 10px 20px;
-    font-size: 25px;
+    font-size: 40px;
+    position: absolute;
     font-weight: 300;
     color: #000;
     font-family: "myFirstFont";
     border: 1px solid #ffffff;
     border-radius: 20px;
+    top: 409px;
 
 }
 
-footer div {
 
-    position: relative;
-
-}
 
 .span_footer3 {
     display: inline-block;
     position: absolute;
-    top: 9px;
-    right: 11px;
+    top: 422px;
+    right: 40px;
     font-size: 15px;
     font-family: "myFirstFont";
     opacity: .8;
@@ -307,8 +314,9 @@ footer div {
 
     display: block;
     position: absolute;
-    right: 10px;
+    right: 39px;
     opacity: .4;
     font-family: "myFirstFont";
+    top: 449px;
 
 }
