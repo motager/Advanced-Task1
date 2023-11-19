@@ -1,0 +1,314 @@
+body {
+
+    background-color: #ffdcdc;
+
+}
+
+.div_all {
+
+    margin: 100px auto;
+
+}
+
+
+.first_div {
+
+
+
+    background-color: #dc7023;
+    width: 450px;
+    height: 0px 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #dc7023;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    position: relative;
+
+
+
+}
+
+.mb {
+    display: inline-block;
+    font-size: smaller;
+    color: #ffe1e1;
+    opacity: .9;
+    margin: 6px 20px;
+
+
+
+}
+
+
+.mon {
+
+    margin: 10px 18px 0px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: "myFirstFont";
+    border: 1px solid #dc7023;
+    border-radius: 20px;
+
+}
+
+
+svg {
+
+
+    position: absolute;
+    right: 20px;
+    top: 32px;
+}
+
+
+
+
+.last_div {
+
+
+
+
+    margin: auto;
+    border: 1px solid #ffe1e1;
+    background-color: #f9f9f9;
+    height: 450px;
+    width: 450px;
+
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.HW {
+
+    font-size: 20px;
+    font-family: myFirstFont;
+    font-weight: 100;
+    margin: 10px 12px;
+
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../svg/static/Rubik-Medium.ttf);
+
+}
+
+.main_chart {
+
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+
+.div1 {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: white;
+
+
+
+    height: 40px;
+    background-color: #ee863b;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.div2 {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: white;
+    height: 90px;
+    background-color: #ee863b;
+    border-radius: 5px;
+    width: 40px;
+
+
+}
+
+.div3 {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: white;
+    height: 150px;
+    background-color: #51aec9;
+    border-radius: 5px;
+    width: 40px;
+
+}
+
+.div4 {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: white;
+    height: 80px;
+    background-color: #ee863b;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.div5 {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: white;
+    height: 60px;
+    background-color: #ee863b;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.div6 {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: white;
+    height: 100px;
+    background-color: #ee863b;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.div7 {
+    display: inline-block;
+
+    margin-left: 10px;
+
+    background-color: white;
+    height: 66px;
+    background-color: #ee863b;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.div_days {
+
+    margin: 5px;
+}
+
+.days1 {
+    position: absolute;
+    right: 369px;
+    display: inline-block;
+    margin-left: 13.4px;
+    font-family: "myFirstFont";
+    font-size: 10px;
+    opacity: .5;
+
+}
+
+.days2 {
+    position: absolute;
+    right: 318px;
+    display: inline-block;
+    margin-left: 28.4px;
+    font-family: "myFirstFont";
+    font-size: 10px;
+    opacity: .5;
+}
+
+.days3 {
+    position: absolute;
+    right: 264px;
+    display: inline-block;
+    margin-left: 28.4px;
+    font-family: "myFirstFont";
+    font-size: 10px;
+    opacity: .5;
+
+}
+
+.days4 {
+    position: absolute;
+    right: 209px;
+    display: inline-block;
+    margin-left: 28.4px;
+    font-family: "myFirstFont";
+    font-size: 15px;
+    font-size: 10px;
+    opacity: .5;
+}
+
+.days5 {
+    position: absolute;
+    right: 156px;
+    display: inline-block;
+
+    font-family: "myFirstFont";
+    font-size: 10px;
+    opacity: .5;
+}
+
+.days6 {
+    position: absolute;
+    right: 102px;
+    display: inline-block;
+    margin-left: 28.4px;
+    font-family: "myFirstFont";
+    font-size: 10px;
+    opacity: .5;
+
+}
+
+.days7 {
+    position: absolute;
+    right: 49px;
+    display: inline-block;
+    margin-left: 28.4px;
+    font-family: "myFirstFont";
+    font-size: 10px;
+    opacity: .5;
+}
+
+.span_footer1 {
+
+    font-size: smaller;
+    color: #a09a9a;
+    opacity: .9;
+    font-family: "myFirstFont";
+
+}
+
+.span_footer2 {
+
+
+    margin: 10px 20px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #000;
+    font-family: "myFirstFont";
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+
+}
+
+footer div {
+
+    position: relative;
+
+}
+
+.span_footer3 {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    right: 11px;
+    font-size: 15px;
+    font-family: "myFirstFont";
+    opacity: .8;
+
+}
+
+.span_footer4 {
+
+    display: block;
+    position: absolute;
+    right: 10px;
+    opacity: .4;
+    font-family: "myFirstFont";
+
+}
