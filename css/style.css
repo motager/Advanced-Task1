@@ -4,6 +4,8 @@ body {
 
 }
 
+
+
 .div_all {
 
     margin: 100px auto;
@@ -18,7 +20,7 @@ body {
     background-color: #EC755D;
     width: 540px;
     height: 128px;
-    margin: 158px auto 27px;
+    margin: auto auto 27px ;
     padding: 20px 31px 20px 0px;
     box-sizing: border-box;
     position: relative;
@@ -68,12 +70,12 @@ svg {
 
 
 
-    margin: auto;
+    margin: auto ;
     border: 1px solid #ffe1e1;
     background-color: #f9f9f9;
     height: 510px;
     width: 540px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 42px 30px 56px 30px;
     box-sizing: border-box;
     position: relative;
@@ -84,7 +86,8 @@ svg {
     font-size: 25px;
     font-family: myFirstFont;
     font-weight: 100;
-    margin: 10px 12px;
+    margin: 10px 12px;font-weight: 600;
+
 
 
 }
@@ -308,6 +311,7 @@ hr {
     font-size: 15px;
     font-family: "myFirstFont";
     opacity: .8;
+    font-weight: 700;
 
 }
 
