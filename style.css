@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    /* body */
+body {
+
+    background-color: #F7E9DC;
+    overflow: hidden;
+}
+
+/* top box */
+
+.box-top {
+
+    height: 125px;
+    width: 536px;
+    background-color: #EC755D;
+    border: 0px solid #EC755D;
+    border-radius: 20px;
+    margin: 100px auto 25px auto;
+
+}
+
+.box-top ul {
+    display: inline-block;
+    margin: 32px 270px 33px 20px;
+}
+
+.box-top li {
+
+    list-style-type: none;
+    margin-bottom: 10px;
+
+
+}
+
+.box-top ul li span {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: .7;
+
+}
+
+.box-top ul li p {
+
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+img {
+
+    margin-right: -5px;
+}
+
+.box-bottom {
+
+    height: 512px;
+    width: 540px;
+
+    border-radius: 20px;
+    margin: 0px auto 30px;
+    padding: 15px;
+    background-color: #FFFCF7;
+
+}
+
+/* bottom box */
+
+
+.box-bottom p {
+
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-display: initial;
+    color: black;
+    font-family: sans-serif;
+}
+
+.col {
+    width: 47px;
+    background-color: #EC755D;
+    height: 90px;
+    margin: 20px 10px;
+    border-radius: 5px;
+
+}
+
+/* chart code */
+
+.main-chart {
+    margin: 45px 10px 30px 10px;
+}
+
+.number {
+    display: inline-block;
+}
+
+
+.number span {
+
+    color: #76B5BC;
+    font-family: sans-serif;
+}
+
+.number div {
+    text-align: center;
+
+}
+
+/* chart columns */
+.col-1 {
+    height: 50px;
+}
+
+.col-2 {
+    height: 100px;
+}
+
+.col-3 {
+    height: 153px;
+    background-color: #76B5BC;
+}
+
+.col-4 {
+    height: 90px;
+}
+
+.col-5 {
+    height: 68px;
+}
+
+.col-6 {
+    height: 125px;
+}
+
+
+.col-7 {
+    height: 75px;
+}
+
+
+/* margin column "" alone "" */
+
+.column-seven {
+    margin-right: -20px;
+}
+ 
+hr {
+
+    opacity: .5;
+    color: #beb7b5;
+
+}
+
+        /* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* list-1 in footer */
+
+.list-2 {
+
+    list-style-type: none;
+}
+
+.div-list-2 {
+    display: flex;
+}
+    /* thm = Total this month */
+.list-2 .thm {
+
+    opacity: .4;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/* money = $478.33 */
+.list-2 .money {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+/* list-2 in footer */
+
+.div-list-3 {
+    margin: 30px 10px;
+}
+
+.div-list-3 ul {
+
+    list-style-type: none;
+    margin: 30px 10px 20px 0px;
+
+}
+
+.div-list-3 li {
+    margin: 10px;
+
+}
+
+.div-list-3 span {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* present = +2.4% */
+
+.present {
+    font-size: 15px;
+    color: #000;
+    opacity: .9;
+    font-weight: bold;
+    text-align: end;
+}
+
+ /* flm = from last month  */
+
+.flm {
+    font-size: 20px;
+    font-family: "font";
+    font-weight: bolder;
+    color: #000;
+    opacity: .6;
+}
+
+    /*
+    ---- font face ➡➡➡ to customize a font 
+    name="font"
+     src: url(./font/static/Rubik-Bold.ttf);
+    */
+@font-face {
+    font-family: "font";
+    src: url(./font/static/Rubik-Bold.ttf);
+}
